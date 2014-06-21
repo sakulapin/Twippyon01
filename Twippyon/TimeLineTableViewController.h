@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TimeLineTableViewController.h
 //  Twippyon
 //
 //  Created by 國井さくら on 2014/06/14.
@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
 #import <Accounts/Accounts.h>
-#import "TimeLineTableViewController.h"
+#import "TimeLineCell.h"
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController <UIActionSheetDelegate>
 
+@interface TimeLineTableViewController : UITableViewController
+
+@property(nonatomic,copy) NSString *identifier;
 
 @end

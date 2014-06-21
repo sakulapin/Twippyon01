@@ -21,6 +21,11 @@
 		2F165CFD194C0EF4001FE330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F165CDF194C0EF4001FE330 /* UIKit.framework */; };
 		2F165D05194C0EF4001FE330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F165D03194C0EF4001FE330 /* InfoPlist.strings */; };
 		2F165D07194C0EF4001FE330 /* TwippyonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F165D06194C0EF4001FE330 /* TwippyonTests.m */; };
+		2F165D12194C2979001FE330 /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F165D11194C2979001FE330 /* TimeLineTableViewController.m */; };
+		2F165D15194C2BE1001FE330 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F165D14194C2BE1001FE330 /* TimeLineCell.m */; };
+		2F165D18195519CF001FE330 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F165D17195519CF001FE330 /* DetailViewController.m */; };
+		2F165D1B19553F4D001FE330 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F165D1A19553F4D001FE330 /* WebViewController.m */; };
+		2F165D1E195544C2001FE330 /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F165D1D195544C2001FE330 /* MyUIApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		2F165D02194C0EF4001FE330 /* TwippyonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwippyonTests-Info.plist"; sourceTree = "<group>"; };
 		2F165D04194C0EF4001FE330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F165D06194C0EF4001FE330 /* TwippyonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwippyonTests.m; sourceTree = "<group>"; };
+		2F165D10194C2979001FE330 /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		2F165D11194C2979001FE330 /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		2F165D13194C2BE1001FE330 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		2F165D14194C2BE1001FE330 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		2F165D16195519CF001FE330 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2F165D17195519CF001FE330 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2F165D1919553F4D001FE330 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2F165D1A19553F4D001FE330 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2F165D1C195544C2001FE330 /* MyUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIApplication.h; sourceTree = "<group>"; };
+		2F165D1D195544C2001FE330 /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				2F165CF1194C0EF4001FE330 /* ViewController.m */,
 				2F165CF3194C0EF4001FE330 /* Images.xcassets */,
 				2F165CE2194C0EF4001FE330 /* Supporting Files */,
+				2F165D10194C2979001FE330 /* TimeLineTableViewController.h */,
+				2F165D11194C2979001FE330 /* TimeLineTableViewController.m */,
+				2F165D13194C2BE1001FE330 /* TimeLineCell.h */,
+				2F165D14194C2BE1001FE330 /* TimeLineCell.m */,
+				2F165D16195519CF001FE330 /* DetailViewController.h */,
+				2F165D17195519CF001FE330 /* DetailViewController.m */,
+				2F165D1919553F4D001FE330 /* WebViewController.h */,
+				2F165D1A19553F4D001FE330 /* WebViewController.m */,
+				2F165D1C195544C2001FE330 /* MyUIApplication.h */,
+				2F165D1D195544C2001FE330 /* MyUIApplication.m */,
 			);
 			path = Twippyon;
 			sourceTree = "<group>";
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F165D15194C2BE1001FE330 /* TimeLineCell.m in Sources */,
+				2F165D1B19553F4D001FE330 /* WebViewController.m in Sources */,
 				2F165CF2194C0EF4001FE330 /* ViewController.m in Sources */,
 				2F165CEC194C0EF4001FE330 /* AppDelegate.m in Sources */,
+				2F165D1E195544C2001FE330 /* MyUIApplication.m in Sources */,
+				2F165D12194C2979001FE330 /* TimeLineTableViewController.m in Sources */,
 				2F165CE8194C0EF4001FE330 /* main.m in Sources */,
+				2F165D18195519CF001FE330 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 				2F165D0C194C0EF4001FE330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F165D0D194C0EF4001FE330 /* Build configuration list for PBXNativeTarget "TwippyonTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				2F165D0F194C0EF4001FE330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
